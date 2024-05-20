@@ -234,9 +234,8 @@ class WalkerPhysics(object):
 		download_url(url, self.data_folder, "training.pt", None)
 
 	def _generate_random_trajectories(self, n_samples):
-
 		try:
-			from dm_control import suite  # noqa: F401
+			from dm_control import suite
 		except ImportError as e:
 			raise Exception('Deepmind Control Suite is required to generate the dataset.') from e
 
@@ -245,15 +244,21 @@ class WalkerPhysics(object):
 
 		# Store the state of the RNG to restore later.
 		st0 = np.random.get_state()
-		# np.random.seed(123)
 
 		data = np.zeros((n_samples, self.T, self.D))
 		for i in range(n_samples):
 			with physics.reset_context():
-				# Example initialization assuming the walker's root z position is included in qpos
-				physics.data.qpos[2] = 0  # Set this to your calculated value
-				physics.data.qpos[:2] = np.random.uniform(0, 0.5, size=2)  # x, y positions
-				physics.data.qpos[3:] = np.random.uniform(-2, 2, size=physics.data.qpos[3:].shape)  # Other joint positions
+				# Initialize the walker's position
+				# Setting the global X, Y (height), Z position of the root body
+				# Adjust Y to just enough to maintain an upright starting posture without being airborne
+				physics.data.qpos[:3] = [0, 0.9, 0]  # Adjust Y based on model specifics to start on ground
+
+				# Initialize joint positions to encourage a slight movement
+				# Randomly initialize joint angles slightly to promote stepping motion
+				physics.data.qpos[3:] = np.random.uniform(low=-0.1, high=0.1, size=physics.data.qpos[3:].shape)
+
+				# Initial velocities (slight forward momentum)
+				physics.data.qvel[:] = np.random.uniform(-0.5, 0.5, size=physics.data.qvel.shape)
 
 			for t in range(self.T):
 				data[i, t, :self.D // 2] = physics.data.qpos
@@ -263,6 +268,7 @@ class WalkerPhysics(object):
 		# Restore RNG.
 		np.random.set_state(st0)
 		return data
+
 
 	def _check_exists(self):
 		return os.path.exists(os.path.join(self.data_folder, self.training_file))
