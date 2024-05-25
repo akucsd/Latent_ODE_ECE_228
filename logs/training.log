@@ -1,0 +1,53 @@
+
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228\final_project.ipynb
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+
+der odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+-random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 100 --niters 300 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --z0_encoder odernn --latents 6 --rec_dims 20 --rec_layers 1 --gen_layers 1 --units 100 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False
+
+
+
+
+
+
+

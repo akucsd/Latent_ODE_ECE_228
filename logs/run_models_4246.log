@@ -1,0 +1,18 @@
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228\run_models.py
+run_models.py --niters 300 -n 10000 -l 15 --dataset hopper --latent-ode --rec-dims 30 --gru-units 100 --units 300 --gen-layers 3 --rec-layers 3
+Experiment 4246
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 18766.462891 | Likelihood -18771.664062 | KL fp 4.7836 | FP STD 0.0553|
+KL coef: 0.0
+Train loss (one batch): 19246.8828125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0376
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 4246
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 12835.917969 | Likelihood -12843.476562 | KL fp 5.0061 | FP STD 0.0403|
+KL coef: 0.0
+Train loss (one batch): 13773.6220703125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0257
+Poisson likelihood: 0.0
+CE loss: 0.0

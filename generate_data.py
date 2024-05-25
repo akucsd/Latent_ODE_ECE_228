@@ -1,7 +1,11 @@
 from mujoco_physics import HopperPhysics
 import torch
 import os
+from lib.plotting import plot_trajectories
+import matplotlib.pyplot as plt
+import matplotlib
 
+matplotlib.use('TkAgg')
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -23,9 +27,23 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 hopper = HopperPhysics(root='data', download=False, generate=False)
 
 dataset = hopper.get_dataset()
+print(dataset.shape)
 traj_index = 23   # Index of the trajectory you want to visualize
 trajectory = dataset[traj_index]
-hopper.visualize(trajectory, plot_name=f'traj_{traj_index}', dirname=output_dir)
+print(trajectory.shape)
+n_timesteps =trajectory.shape[0]
+time_steps = torch.linspace(0, 10, n_timesteps).to(trajectory.device) 
+n_dims = trajectory.shape[1]
+fig, axes = plt.subplots(nrows=7, ncols=2, figsize=(15, 20))  # Create a grid of subplots
+axes = axes.flatten()
+# hopper.visualize(trajectory, plot_name=f'traj_{traj_index}', dirname=output_dir)
+for i in range(n_dims):
+    ax = axes[i]
+    plot_trajectories(ax, trajectory.unsqueeze(0), time_steps, title=f"Dimension {i}", dim_to_show=i, add_legend=True)
+
+
+plt.tight_layout()
+plt.show()
 
 
 # # the visual environment I showed first during the meeting, with the mouse.
