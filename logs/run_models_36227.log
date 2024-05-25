@@ -1,0 +1,85 @@
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 10000 --niters 10 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode False --classic_rnn True --ode_rnn False--z0_encoder odernn --latents 15 --rec_dims 30 --rec_layers 3 --gen_layers 3 --units 300 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False 
+Experiment 36227
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 9769.706055 | Likelihood -9769.706055 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 9318.19140625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0196
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 5388.971191 | Likelihood -5388.971191 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 5047.59423828125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0108
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 3402.090332 | Likelihood -3402.090332 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 3004.2705078125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0068
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0004 [Test seq (cond on sampled tp)] | Loss 2732.810791 | Likelihood -2732.810791 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 2156.554443359375
+Train CE loss (one batch): 0.0
+Test MSE: 0.0055
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0005 [Test seq (cond on sampled tp)] | Loss 1869.080444 | Likelihood -1869.080444 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1651.75390625
+Train CE loss (one batch): 0.0
+Test MSE: 0.0038
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0006 [Test seq (cond on sampled tp)] | Loss 1688.994141 | Likelihood -1688.994141 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1570.232177734375
+Train CE loss (one batch): 0.0
+Test MSE: 0.0034
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0007 [Test seq (cond on sampled tp)] | Loss 1326.463257 | Likelihood -1326.463257 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1331.3428955078125
+Train CE loss (one batch): 0.0
+Test MSE: 0.0027
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0008 [Test seq (cond on sampled tp)] | Loss 1113.009277 | Likelihood -1113.009277 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1212.82373046875
+Train CE loss (one batch): 0.0
+Test MSE: 0.0022
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0009 [Test seq (cond on sampled tp)] | Loss 989.525452 | Likelihood -989.525452 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1018.4262084960938
+Train CE loss (one batch): 0.0
+Test MSE: 0.0020
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 36227
+Epoch 0010 [Test seq (cond on sampled tp)] | Loss 821.759766 | Likelihood -821.759766 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 874.3020629882812
+Train CE loss (one batch): 0.0
+Test MSE: 0.0017
+Poisson likelihood: 0.0
+CE loss: 0.0
+MUJOCO_GL is not set, so an OpenGL backend will be chosen automatically.
+Successfully imported OpenGL backend: glfw
+MuJoCo library version is: 3.1.5
