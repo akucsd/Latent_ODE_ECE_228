@@ -1,2 +1,13 @@
 data/HopperPhysics/training.pt
 data/HopperPhysics/training.pt
+latent_ode_ece_228/gt_render_1
+latent_ode_ece_228/gt_render
+latent_ode_ece_228/gt_render_19
+latent_ode_ece_228/hopper_imgs
+latent_ode_ece_228/pred_render
+latent_ode_ece_228/pred_render_1
+latent_ode_ece_228/pred_render_19
+
+
+
+
