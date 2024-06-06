@@ -1,0 +1,5 @@
+C:\Users\msi\Desktop\ECE-228\Project\latent_ode_ece_228
+run_models.py --n 10000 --niters 100 --lr 0.01 --batch_size 50 --viz False --save experiments/ --random_seed 1991 --dataset hopper --latent_ode True --classic_rnn False --ode_rnn False--z0_encoder odernn --latents 15 --rec_dims 30 --rec_layers 3 --gen_layers 3 --units 300 --gru_units 100 --timepoints 100 --max_t 5.0 --noise_weight 0.01 --extrap False 
+MUJOCO_GL is not set, so an OpenGL backend will be chosen automatically.
+Successfully imported OpenGL backend: glfw
+MuJoCo library version is: 3.1.5
